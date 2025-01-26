@@ -1,0 +1,10 @@
+
+/* change font*/
+body {
+    font-family: "Fira Code", serif;
+}
+
+.post-content pre,
+code {
+    font-family: "Fira Code", serif;
+}
