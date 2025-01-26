@@ -1,0 +1,72 @@
+baseURL: ""
+languageCode: en-us
+title: Yvonne Wu
+pagerSize: 6
+theme:
+  - PaperMod
+enableInlineShortcodes: true
+params:
+  profileMode:
+      enabled: true # needs to be explicitly set
+      title:  "Yu-Jie(Yvonne) Wu🦄"
+      subtitle: "A driven developer 👩🏻‍💻 passionate about new technologies and creative problem-solving."
+      imageUrl: "img/profile.jpg"
+      imageWidth: 260
+      imageHeight: 260
+      imageTitle: Yvonne's profile
+      buttons:
+        - name: Tags
+          url: tags
+        - name: Categories
+          url: categories
+  socialIcons: 
+    - name: github
+      url: https://github.com/yvonnewu1324
+    - name: linkedin
+      url: https://linkedin.com/in/yu-jie-wu-a07823172
+    - name: email
+      url: mailto:yvonnewu1324@gmail.com
+  cover:
+    # hiddenInList: true # hide on list pages and home
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  disableThemeToggle: false
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 5
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    # - identifier: experience
+    #   name: Experience
+    #   url: /experience/
+    #   weight: 30
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
